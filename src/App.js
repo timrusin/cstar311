@@ -12,15 +12,16 @@ function App() {
 
 function Navbar() {
   const [open, setOpen ]= useState(false)
+  console.log(open)
 
   return (
     <div className="navbar">
       <nav className="navbar-nav">
-        <Link to="/photos" className="button">Images</Link>
+        <button className="nav-item" onClick={()=>setOpen(!open)}>Images</button>
         <Link to="/">
           <img className="logo" src={logo} alt="logo"></img>
         </Link>
-        <Link to="/about" className="button">About</Link>
+        <Link to="/about" className="nav-item">About</Link>
       </nav>
       <Routes>
         <Route></Route>

@@ -13,17 +13,18 @@
   align-content: center;
 }
 
-.button {
+.nav-item {
   color: rgb(0, 68, 117);
+  border: none;
+  background: none;
   text-decoration: none;
   margin: 50px 5% 0px 5%;
-  /* text-shadow: rgb(165, 165, 165) 0px 0px 20px; */
   font-family: 'Dancing Script', cursive;
   font-size: 1em;
   transition: filter 500ms;
 }
 
-.button:hover{
+.nav-item:hover{
   filter: brightness(3)
 }
 
