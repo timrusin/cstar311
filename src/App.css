@@ -1,25 +1,37 @@
-
-body {
-  background-color: black;
+.navbar {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  /* box-shadow: rgb(0, 68, 117) 0px 0px 40px; */
 }
 
-.App {
-  background-color: rgb(33, 33, 33);
-  height: 80px;
-  box-shadow: white 0px 0px 40px;
-}
-
-nav {
+.navbar-nav {
+  max-width: 100%;
+  height: 100%;
   display: flex;
-  color: white;
   font-size: 2em;
   justify-content: center;
   align-content: center;
 }
 
-.button{
-  color: white;
+.button {
+  color: rgb(0, 68, 117);
   text-decoration: none;
-  margin: 20px 5% 0px 5%;
-  text-shadow: white 0px 0px 10px;
+  margin: 50px 5% 0px 5%;
+  /* text-shadow: rgb(165, 165, 165) 0px 0px 20px; */
+  font-family: 'Dancing Script', cursive;
+  font-size: 1em;
+  transition: filter 500ms;
+}
+
+.button:hover{
+  filter: brightness(3)
+}
+
+.logo {
+  width: 120px;
+  transition: filter 500ms;
+}
+
+.logo:hover {
+  filter: saturate(10)
 }
