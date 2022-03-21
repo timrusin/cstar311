@@ -1,32 +1,25 @@
-import { useState, React } from 'react'
 import { Route, Routes, Link } from 'react-router-dom'
 import './App.css';
 import logo from "./assets/photos/cstar311logo.png"
+import Images from './screens/Images';
+import About from './screens/About';
+import Home from './screens/Home';
 
 function App() {
 
   return (
-    <Navbar></Navbar>
-  );
-}
-
-function Navbar() {
-  const [open, setOpen ]= useState(false)
-  console.log(open)
-
-  return (
     <div className="navbar">
       <nav className="navbar-nav">
-        <button className="nav-item" onClick={()=>setOpen(!open)}>Images</button>
+        <Link to="/images" className="nav-item">Images</Link>
         <Link to="/">
           <img className="logo" src={logo} alt="logo"></img>
         </Link>
         <Link to="/about" className="nav-item">About</Link>
-      </nav>
+      </nav>     
       <Routes>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Images" element={<Images/>}/>
+        <Route path="About" element={<About/>}/>
       </Routes>
     </div>
   );
