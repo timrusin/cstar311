@@ -1,25 +1,28 @@
-import { useState, React } from 'react'
+import { useState, useEffect } from 'react'
 import { SliderData } from './SliderData'
-import { FaArrowAltCircleRight } from 'react-icons/fa'
 
 const ImageSlider = ( { slides } ) => {
-    const[current, setCurrent]= useState(0)
-    const length = slides.length
-    if (!Array.isArray(slides) || slides.length <= 0){
-        return null
-    }
-
+  const[current, setCurrent]= useState(0)
+  const length = slides.length
+    useEffect(()=>{
+      setTimeout(() => {
+        nextSlide();
+      }, 6000);
+    },[current])
+    
     const nextSlide = () => {
-        setCurrent(current === length -1 ? 0 : current + 1)
+      setCurrent(current === length -1 ? 0 : current + 1)
+    }
+    if (!Array.isArray(slides) || slides.length <= 0){
+      return null
     }
 
   return (
     <div className='slider'>
-      <FaArrowAltCircleRight className="arrow" onClick={nextSlide}/>
-      {SliderData.map((slider, index) => {
+      {SliderData.map((slider, i) => {
           return (
-            <div className={index === current ? 'slide active' : 'slide'} key={index}>
-              {index === current && (<img src={slider.image} width="80%" alt="testing" className="image"/>)}
+            <div className={i === current ? 'slide_active' : 'slide'} key={i}>
+              {i === current && (<img src={slider.image} width="100%" alt="testing" className="image"/>)}
             </div>
           );
       })}
