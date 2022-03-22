@@ -4,11 +4,8 @@ import logo from '../assets/photos/cstar311logo.png'
 import Dropdown from './Dropdown'
 
 const Navbar = () => {
-    const [click, setClick]=useState(false)
     const [dropdown, setDropdown]=useState(false)
 
-    const handleClick = () => setClick(!click)
-    
   return (
     <nav className="navbar">
       <Link to="/images" className="nav-item">
@@ -21,12 +18,6 @@ const Navbar = () => {
       <Link to="/about" className="nav-item">
         About
       </Link>
-      <div className='menu-icon' onClick={handleClick}>
-        <i className= {click ? 'fas fa-times' : 'fas fa-bars'}/>
-      </div>
-      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          
-      </ul>
     </nav>
   );
 }
