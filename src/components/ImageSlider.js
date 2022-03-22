@@ -1,34 +1,15 @@
-import { useState, useEffect } from 'react'
-import { SliderData } from './SliderData'
+import { HomeImages } from '../assets/photos/HomeImages'
+import BackgroundSlider from 'react-background-slider'
 
-const ImageSlider = ( { slides } ) => {
-  const[current, setCurrent]= useState(0)
-  const length = slides.length
-
-    useEffect(()=>{
-      setTimeout(() => {
-        nextSlide();
-      }, 8000);
-    },[current])
-    
-    const nextSlide = () => {
-      setCurrent(current === length -1 ? 0 : current + 1)
-    }
-    if (!Array.isArray(slides) || slides.length <= 0){
-      return null
-    }
-
+const ImageSlider = () => {
   return (
-    <div className='slider'>
-      {SliderData.map((slider, index) => {
-          return (
-            <div className={index === current ? 'slide active' : 'slide'} key={index}>
-              {index === current && (<img src={slider.image} alt="testing" className="image"/>)}
-            </div>
-          );
-      })}
+    <div>
+    <BackgroundSlider
+    images={HomeImages}
+    duration={5}
+    transition={1}/>
     </div>
-  );
+    );
 }
 
 export default ImageSlider  
