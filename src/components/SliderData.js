@@ -1,14 +1,18 @@
 export const SliderData = [
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/1566px-Test-Logo.svg.png?20150906031702",
+    image: "https://photographycourse.net/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg",
   },
   {
-    image: "https://cdn.pixabay.com/photo/2014/06/03/19/38/road-sign-361514_960_720.png",
+    image: "https://cdn.theatlantic.com/media/img/photo/2020/11/top-shots-2020-international-landsc/a01_Yuen_MagicalNight-1/original.jpg",
   },
   {
-    image: "https://hackernoon.com/hn-images/0*xMaFF2hSXpf_kIfG.jpg",
+    image: "https://shotkit.com/wp-content/uploads/2020/08/night-landscape-photography-featured.jpg",
   },
   {
-    image: "https://www.outbrain.com/techblog/wp-content/uploads/2017/05/road-sign-361513_960_720.jpg",
+    image: "https://miro.medium.com/max/1080/1*jWx9suY2k3Ifq4B8A_vz9g.jpeg",
   },
+  {
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
+  },
+
 ];

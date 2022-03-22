@@ -11,7 +11,7 @@ function App() {
     <div className="navbar">
       <nav className="navbar-nav">
         <Link to="/images" className="nav-item">Images</Link>
-        <Link to="/">
+        <Link to="/" className='test'>
           <img className="logo" src={logo} alt="logo"></img>
         </Link>
         <Link to="/about" className="nav-item">About</Link>
