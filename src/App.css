@@ -22,20 +22,20 @@
   margin: 50px 5% 0px 5%;
   font-family: 'Dancing Script', cursive;
   font-size: 1em;
-  transition: filter 500ms;
+  transition: filter 400ms;
 }
 
 .nav-item:hover{
-  filter: brightness(3)
+  filter:drop-shadow(0px 0px 1px)
 }
 
 .logo {
   width: 130px;
-  transition: filter 500ms;
+  transition: filter 400ms;
 }
 
 .logo:hover {
-  filter: saturate(10)
+  filter: saturate(40)
 }
 
 .slider {
@@ -49,7 +49,7 @@
 .image {
   max-height: 650px;
   border-radius: 10px;
-  /* box-shadow: #000 0px 0px 20px; */
+  box-shadow: #000 0px 10px 20px;
 }
 
 .arrow {
