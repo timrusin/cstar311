@@ -14,7 +14,6 @@ const Navbar = () => {
     const onMouseEnter = () => {
       setDropdown(true)
     };
-
     const onMouseLeave = () => {
       setDropdown(false)
     };
