@@ -5,6 +5,7 @@ import About from './screens/About';
 import Home from './screens/Home';
 import Navbar from './components/Navbar';
 import Contact from './screens/Contact';
+import NewBorn from './screens/NewBorn';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/images" element={<Images/>}/>
         <Route path="about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path='/newborn' element={<NewBorn/>}/>
       </Routes>
     </div>
   );
