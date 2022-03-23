@@ -1,10 +1,18 @@
 import React from 'react'
 import ImageSlider from '../components/ImageSlider'
+import logo from '../assets/photos/cstar311logo.png'
+import './Home.css'
+
 
 const Home = () => {
   return (
-   <ImageSlider/>
-  )
+    <>
+      <div className="center-mobile-logo">
+        <img src={logo} className="mobile-logo" alt="logo" />
+      </div>
+      <ImageSlider />
+    </>
+  );
 }
 
 export default Home

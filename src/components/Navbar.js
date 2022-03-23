@@ -46,6 +46,9 @@ const Navbar = () => {
               onClick={closeMobileMenu}
             ></img>
           </Link>
+            <img 
+            className="logo-large"
+            src={logo} alt="large logo"/>
         </li>
         <li className="nav-item">
           <Link to="/about" className="nav-links" onClick={closeMobileMenu}>

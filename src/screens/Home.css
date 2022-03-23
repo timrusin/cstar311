@@ -1,0 +1,18 @@
+.center-mobile-logo {
+    display: none;
+}
+
+.mobile-logo {
+    position: absolute;
+    filter: invert();
+    width: 40%;
+    top: 5px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1050px) {
+   .center-mobile-logo {
+    display: flex;
+    justify-content: center;
+    }
+}
