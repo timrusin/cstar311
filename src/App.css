@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgba(255, 255, 255, 0.529);
+  /* background-color: rgba(255, 255, 255, 0.529); */
   display: flex;
   font-size: 2em;
   justify-content: center;
@@ -7,30 +7,32 @@
 }
 
 .nav-item {
-  color: rgb(0, 68, 117);
+  /* color: rgb(0, 68, 117); */
+  color: white;
   text-decoration: none;
   margin: 50px 5% 0px 5%;
   font-family: 'Dancing Script', cursive;
   font-size: 1.25em;
   z-index: 1;
-  transition: filter 400ms;
+  transition: color 400ms;
 }
 
 .nav-item:hover{
-  filter:invert();
+  color:rgb(0, 102, 255);
 }
 
 .logo {
   width: 180px;
-  margin: 0px px;
-  transition: filter 400ms;
+  margin: 0px 60px;
   z-index: 1;
-  text-shadow: white 10px 10px 10px;
+  filter: invert();
+  transition: filter 400ms;
 }
 
 .logo:hover {
-  filter: saturate(40)
+  filter: saturate(5)
 }
+
 
 .images_container {
   margin-top: 100px;
@@ -44,32 +46,8 @@
   border-radius: 5%;
 }
 
-.dropdown-menu {
-  width: 200px;
-  position: absolute;
-  top: 80px;
-  list-style: none;
-  text-align: start;
-}
 
-.dropdown-menu li {
-  background: white;
-  cursor: pointer;
-}
-
-.dropdown-menu.clicked {
-  display: none;
-}
-
-.dropdown-link {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: white;
-  padding: 16px;
-}
-/* .fade-in-image {
+.fade-in-image {
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 1em;
@@ -97,4 +75,4 @@
 @-o-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
-} */
+}

@@ -2,8 +2,9 @@ import React from 'react'
 
 const Images = () => {
   return (
+    <div className="images_bg">
     <div className="images_container">
-      
+    
       <figure className='fade-in-image'> 
         <figcaption><h1>Newborn</h1></figcaption>
         <img className="category_images fade-in-image" src="https://www.jcpportraits.com/sites/jcpportraits.com/files/portrait/2105/1080x1080-action-block-3.jpg" width="100%" alt="newborn baby"/>
@@ -28,6 +29,7 @@ const Images = () => {
         <figcaption><h1>Black and White</h1></figcaption>
         <img className="category_images " src="https://cdnfl01.viewbug.com/media/mediafiles/2016/04/08/65322170_large.jpg" width ="100%" alt="black and white"/>
       </figure>
+    </div>
     </div>
   )
 }
