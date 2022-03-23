@@ -1,23 +1,20 @@
 .navbar {
-    /* background-color: rgba(255, 255, 255, 0.529); */
     display: flex;
     font-size: 2em;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  ul {
-      padding: 0;
-  }
-  .nav-menu {
-      display: flex;
-      justify-content: center;
-      /* align-items: center; */
-      /* margin: 0px 100px; */
-  }
+ul {
+    padding: 0;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+}
   
-  .nav-item {
-    /* color: rgb(0, 68, 117); */
+.nav-item {
     display: flex;
     align-items: center;
     color: white;
@@ -26,38 +23,38 @@
     font-family: 'Dancing Script', cursive;
     font-size: 1.25em;
     z-index: 1;
-  }
+}
   
-  .nav-links{
-      color: white;
-      text-decoration: none;
-      /* padding: 0.5rem 1rem; */
-      transition: color 400ms;
-    }
+.nav-links{
+    color: white;
+    text-decoration: none;
+    /* padding: 0.5rem 1rem; */
+    transition: color 400ms;
+}
     
-    .nav-links:hover{
-      color:rgb(0, 102, 255);
-    }
+.nav-links:hover{
+    color:rgb(0, 102, 255);
+}
 
-  .logo {
+.logo {
     width: 180px;
     margin-left: 10px;
     margin-right: 0px;
     z-index: 1;
     filter: invert();
     transition: filter 400ms;
-  }
+}
 
-  .logo-large {
-      display: none;
-  }
+.logo-large {
+    display: none;
+}
 
-  .logo:hover {
+.logo:hover {
     filter: saturate(5)
-  }
+}
 
-  .nav-links-mobile {
-  display: none;
+.nav-links-mobile {
+    display: none;
 }
 
 .menu-icon {
@@ -86,7 +83,7 @@
     }
   
     .nav-menu.active {
-      background: #000000;
+      background: #5e572dad;
       left: 0;
       opacity: .75;
       transition: all 0.5s ease;
@@ -97,7 +94,6 @@
       text-align: left;
       padding: 1rem;
       width: 100%;
-      /* display: table; */
     }
     
     .logo {
@@ -118,7 +114,7 @@
       color: #fff;
       font-size: 2rem;
     }
-  
+/*   
     .nav-links-mobile {
       display: block;
       text-align: left;
@@ -130,11 +126,10 @@
       text-decoration: none;
       color: #fff;
       font-size: 1.5rem;
-    }
+    } */
   
-    .nav-links-mobile:hover {
+    /* .nav-links-mobile:hover {
       background: #fff;
       color: #1888ff;
-      transition: 250ms;
-    }
+    } */
   }

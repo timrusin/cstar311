@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <div className="center-mobile-logo">
-        <img src={logo} className="mobile-logo" alt="logo" />
+        <img src={logo} className="mobile-logo fade-in-image" alt="logo" />
       </div>
       <ImageSlider />
     </>
