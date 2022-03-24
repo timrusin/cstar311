@@ -11,7 +11,7 @@ const handleClick = () => setClick(!click)
   return (
     <>
         <ul onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
+        className={click ? 'dropdown-menu clicked' : 'dropdown-menu fade-in-image '}>
             {MenuItems.map((item, index)=> {
                 return(
                     <li key={index}>

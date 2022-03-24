@@ -1,5 +1,6 @@
 .dropdown-menu {
-    width: 200px;
+    transition: 2s;
+    width: 150px;
     position: absolute;
     top: 135px;
     list-style: none;
@@ -8,8 +9,9 @@
   
   .dropdown-menu li {
     color: white;
-    /* font-family: 'Dancing Script', cursive; */
-    font-size: .75em;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: .5em;
+    padding-bottom: 5px;
     background: rgba(0, 0, 0, 0.427);
     cursor: pointer;
   }
