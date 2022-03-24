@@ -62,13 +62,21 @@ ul {
   color: rgb(255, 255, 255);
 }
 
+.images-mobile {
+  margin-top: 10px;
+  margin-left: 60px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+
+}
+
 .images-hide {
   display: none;
 }
 
 .images-nav-item {
   color: white;
-  margin: 10px 80px;
+  margin: 13px 70px;
   list-style: none;
 }
 
@@ -84,7 +92,7 @@ ul {
       flex-direction: column;
       justify-content: left;
       width: 100%;
-      height: 525px;
+      height: 565px;
       position: relative;
       top: 150px;
       left: -100%;
@@ -106,7 +114,7 @@ ul {
       width: 100%;
     }
     
-    .logo {
+    .logo-link {
         display: none;
     }
   

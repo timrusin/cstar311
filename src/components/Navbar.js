@@ -38,7 +38,7 @@ const Navbar = () => {
           {dropdown && <Dropdown />}
         </li>
         <li className="nav-item">
-          <Link to="/" className="nav-links">
+          <Link to="/" className="nav-links logo-link">
             <img
               className="logo"
               src={logo}
@@ -58,20 +58,20 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li className={click ? "nav-item" : "images-hide"}>Images</li>
+        <li className={click ? "nav-item images-mobile" : "images-hide"}>Images:</li>
         <li className={click ? "images-nav-item" : "images-hide"}>
           <Link to="/newborn" className="nav-links" onClick={closeMobileMenu}>
-            newborn
+            NEWBORN
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
           <Link to="/family" className="nav-links" onClick={closeMobileMenu}>
-            famliy
+            FAMILY
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
           <Link to="/fineart" className="nav-links" onClick={closeMobileMenu}>
-            fine art
+            FINE ART
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
@@ -80,7 +80,7 @@ const Navbar = () => {
             className="nav-links"
             onClick={closeMobileMenu}
           >
-            landscapes
+            LANDSCAPES
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
@@ -89,7 +89,7 @@ const Navbar = () => {
             className="nav-links"
             onClick={closeMobileMenu}
           >
-            black and white
+            BLACK AND WHITE
           </Link>
         </li>
       </ul>
