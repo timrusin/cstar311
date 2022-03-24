@@ -37,6 +37,27 @@ const Navbar = () => {
           Images
           {dropdown && <Dropdown />}
         </li>
+        <li className="nav-item">
+          <Link to="/" className="nav-links">
+            <img
+              className="logo"
+              src={logo}
+              alt="logo"
+              onClick={closeMobileMenu}
+            ></img>
+          </Link>
+          <img className="logo-large" src={logo} alt="large logo" />
+        </li>
+        <li className="nav-item">
+          <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+            About
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
+            Contact
+          </Link>
+        </li>
         <li className={click ? "nav-item" : "images-hide"}>Images</li>
         <li className={click ? "images-nav-item" : "images-hide"}>
           <Link to="/newborn" className="nav-links" onClick={closeMobileMenu}>
@@ -69,27 +90,6 @@ const Navbar = () => {
             onClick={closeMobileMenu}
           >
             black and white
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/" className="nav-links">
-            <img
-              className="logo"
-              src={logo}
-              alt="logo"
-              onClick={closeMobileMenu}
-            ></img>
-          </Link>
-          <img className="logo-large" src={logo} alt="large logo" />
-        </li>
-        <li className="nav-item">
-          <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-            About
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-            Contact
           </Link>
         </li>
       </ul>
