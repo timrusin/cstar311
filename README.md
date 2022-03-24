@@ -12,7 +12,7 @@ The idea is simple and elegant with minimal distractions to draw form his work a
 
 ![Mobile Screen](https://github.com/timrusin/cstar311/blob/main/src/assets/photos/mobile_capture.png)
 
-![Mobile Screen Menue](https://github.com/timrusin/cstar311/blob/main/src/assets/photos/mobilemenu_capture.png)
+![Mobile Screen Menu](https://github.com/timrusin/cstar311/blob/main/src/assets/photos/mobilemenu_capture.png)
 
 ## Stretch Goals
 After getting the basic site up to showcase his work, I plan on working on the following stretch goals moving forward:
