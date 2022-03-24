@@ -32,7 +32,7 @@ ul {
     transition: color 400ms;
 }
     
-.nav-links:hover{
+.nav-links:hover {
     color:rgb(0, 102, 255);
 }
 
@@ -63,11 +63,9 @@ ul {
 }
 
 .images-mobile {
-  margin-top: 10px;
+  margin-top: 8px;
   margin-left: 60px;
-  font-weight: bold;
   color: rgb(255, 255, 255);
-
 }
 
 .images-hide {
