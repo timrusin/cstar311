@@ -1,7 +1,6 @@
 .dropdown-menu {
-    transition: 2s;
     width: 150px;
-    position: absolute;
+    position:absolute;
     top: 135px;
     list-style: none;
     text-align: start;
@@ -33,3 +32,13 @@
   .dropdown-link:hover{
     color:rgb(0, 102, 255);
   }
+  
+  @media screen and (max-width: 1050px) {
+    .dropdown-menu li {
+      color: white;
+      font-family:'Times New Roman', Times, serif ;
+      font-size: .5em;
+      padding-bottom: 5px;
+      cursor: pointer;
+  }
+}
