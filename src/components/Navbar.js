@@ -58,8 +58,9 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li className={click ? "nav-item images-mobile" : "images-hide"}>Images:</li>
+        {/* <li className={click ? "nav-item images-mobile" : "images-hide"}>Images:</li> */}
         <li className={click ? "images-nav-item" : "images-hide"}>
+          <hr/>
           <Link to="/newborn" className="nav-links" onClick={closeMobileMenu}>
             NEWBORN
           </Link>
@@ -91,6 +92,7 @@ const Navbar = () => {
           >
             BLACK & WHITE
           </Link>
+        <hr/>
         </li>
       </ul>
     </nav>
