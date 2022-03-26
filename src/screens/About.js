@@ -1,5 +1,5 @@
 import React from 'react'
-import about_photo from '../assets/photos/about_placeholder.jpeg'
+import about_photo from '../assets/photos/about_placeholder2.png'
 import './About.css'
 
 const About = () => {
