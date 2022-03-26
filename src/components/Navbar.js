@@ -89,7 +89,7 @@ const Navbar = () => {
             className="nav-links"
             onClick={closeMobileMenu}
           >
-            BLACK AND WHITE
+            BLACK & WHITE
           </Link>
         </li>
       </ul>
