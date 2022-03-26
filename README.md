@@ -5,6 +5,9 @@ Cstar311 is Joe Hinojosa's freelance photography brand that was in need of a pro
 
 I am currently in the process of building out the main framework of the site, including: operational nav bar with dropdown menu for image categories, home page image carousel, and mobile responsiveness with collapsible navigation.
 
+Current working link for deployed site for beta testing:
+https://cstar311photography.herokuapp.com/
+
 The idea is simple and elegant with minimal distractions to draw form his work along with a simple and attractive user experience. 
 
 ## Screen shots of site
