@@ -96,7 +96,7 @@ ul {
     .nav-menu.active {
       background: #0f0f48d6;
       left: 0;
-      opacity: .75;
+      opacity: .85;
       transition: all 0.5s ease;
       z-index: 1;
     }
