@@ -91,7 +91,7 @@ const Navbar = () => {
           >
             BLACK & WHITE
           </Link>
-        <hr/>
+          <hr/>
         </li>
       </ul>
     </nav>
