@@ -43,7 +43,6 @@ const Navbar = () => {
               className="logo"
               src={logo}
               alt="logo"
-              onClick={closeMobileMenu}
             ></img>
           </Link>
           <img className="logo-large" src={logo} alt="large logo" />

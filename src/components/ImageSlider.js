@@ -6,7 +6,7 @@ const ImageSlider = () => {
     <div>
     <BackgroundSlider
     images={HomeImages}
-    duration={5}
+    duration={4}
     transition={1}/>
     </div>
     );
