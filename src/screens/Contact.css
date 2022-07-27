@@ -1,0 +1,13 @@
+.contact-form {
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    justify-items: center;
+}
+
+.form-input {
+    margin-left: 10px;
+
+}

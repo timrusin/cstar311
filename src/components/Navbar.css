@@ -45,12 +45,12 @@ ul {
     transition: filter 400ms;
 }
 
-.logo-large {
-    display: none;
-}
-
 .logo:hover {
     filter: saturate(5)
+}
+
+.logo-large {
+    display: none;
 }
 
 .nav-links-mobile {
@@ -119,6 +119,10 @@ ul {
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
+    }
+
+    .active {
+      color: grey;
     }
     
   }
